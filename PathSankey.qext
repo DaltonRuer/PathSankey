@@ -1,0 +1,9 @@
+{
+	"name": "PathSankey",
+	"description": "Path Sankey",
+	"icon": "extension",
+	"type": "visualization",
+	"version": 1.0,
+	"preview" : "pathsankey.png",
+	"author": "QlikTech International AB, Modified by Bardess Group, Dalton Ruer"
+}
