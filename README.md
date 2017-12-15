@@ -5,6 +5,8 @@ Developed by Xavier Le Pitre, based on D3.js
 Modified by Bardess Group
 Modified by Dalton Ruer
 
+![alt tag](https://raw.githubusercontent.com/DaltonRuer/PathSankey/master/pathsankey.png) 
+
 License
 Please, if you update this extension feel free to send me your pull requests to help others users to enjoy all features!
 The MIT License (MIT)
