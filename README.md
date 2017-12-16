@@ -58,6 +58,19 @@ Setting a single dimension to a concatentation of the fields like "=Field1 & ', 
 You can create the same effect to view the relationships between fields by simply using multiple Dimensions:
 ![alt tag](https://raw.githubusercontent.com/DaltonRuer/PathSankey/master/Dimensions.png) 
 
+
+The important parts of code that you might want to change if you find yourself in an environment that has more than 100 unique values for any dimensional value is going to be in the PathSankey.js file. You will find the following segment of code and can simply adjust the qHeight value as needed. 
+
+qInitialDataFetch: [{
+                        qWidth: 5,
+                        qHeight: 100
+                    }]
+
+If you find yourself in an environment with data for a path and they did not use commas "," to separate the values there are several points of code where you can change to utilize whatever separator character you may need to use. 
+
+Areas like:   sep = ",";
+And:          var tArr = path.split(",");
+
 License
 Please, if you update this extension feel free to send me your pull requests to help others users to enjoy all features!
 The MIT License (MIT)
