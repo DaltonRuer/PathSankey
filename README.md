@@ -53,10 +53,10 @@ ID2, Field1, Field2, Field3
 
 Setting a single dimension to a concatentation of the fields like "=Field1 & ', ' & Field2 & ', '& Field3 & '," and using a measure of "Count(ID2) will yield the following output. Notice that like a pie chart you can tell that there are more Females than Male. More importantly you can tell that the majority of Blue eyed people are Female rather than male. While also seeing the overall comparison like a pie chart between the color of eyes. 
 
-![alt tag](https://raw.githubusercontent.com/DaltonRuer/PathSankey/master/relationship.png) 
+![alt tag](https://raw.githubusercontent.com/DaltonRuer/PathSankey/master/Relationship.png) 
 
 You can create the same effect to view the relationships between fields by simply using multiple Dimensions:
-![alt tag](https://raw.githubusercontent.com/DaltonRuer/PathSankey/master/dimensions.png) 
+![alt tag](https://raw.githubusercontent.com/DaltonRuer/PathSankey/master/Dimensions.png) 
 
 License
 Please, if you update this extension feel free to send me your pull requests to help others users to enjoy all features!
